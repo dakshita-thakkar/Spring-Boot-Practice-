@@ -1,0 +1,12 @@
+package com.example.primaryAnnotation.common;
+
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class BadmintonCoach implements Coach{
+    @Override
+    public String dailyWorkout() {
+        return "Badminton........";
+    }
+}
